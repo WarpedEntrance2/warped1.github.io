@@ -21,7 +21,7 @@ var Room = {
 			cost: function () {
 				var n = $SM.get('game.buildings["trap"]', true);
 				return {
-					'wood': 10 + (n * 10)
+					'wood': 0 + (n * 0)
 				};
 			},
 			audio: AudioLibrary.BUILD_TRAP
@@ -35,7 +35,7 @@ var Room = {
 			type: 'building',
 			cost: function () {
 				return {
-					'wood': 30
+					'wood': 0
 				};
 			},
 			audio: AudioLibrary.BUILD_CART
@@ -51,7 +51,7 @@ var Room = {
 			cost: function () {
 				var n = $SM.get('game.buildings["hut"]', true);
 				return {
-					'wood': 100 + (n * 50)
+					'wood': 0 + (n * 0)
 				};
 			},
 			audio: AudioLibrary.BUILD_HUT
@@ -65,9 +65,9 @@ var Room = {
 			type: 'building',
 			cost: function () {
 				return {
-					wood: 200,
-					fur: 10,
-					meat: 5
+					wood: 0,
+					fur: 0,
+					meat: 0
 				};
 			},
 			audio: AudioLibrary.BUILD_LODGE
@@ -82,7 +82,7 @@ var Room = {
 			cost: function () {
 				return {
 					'wood': 400,
-					'fur': 100
+					'fur': 0
 				};
 			},
 			audio: AudioLibrary.BUILD_TRADING_POST
