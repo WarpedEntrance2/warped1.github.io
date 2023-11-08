@@ -5,24 +5,24 @@ var Outside = {
 	name: _("Outside"),
 	
 	_STORES_OFFSET: 0,
-	_GATHER_DELAY: 60,
-	_TRAPS_DELAY: 90,
+	_GATHER_DELAY: 1,
+	_TRAPS_DELAY: 1,
 	_POP_DELAY: [0.5, 3],
 	_HUT_ROOM: 4,
 	
 	_INCOME: {
 		'gatherer': {
 			name: _('gatherer'),
-			delay: 10,
+			delay: 0,
 			stores: {
-				'wood': 1
+				'wood': 1000000
 			}
 		},
 		'hunter': {
 			name: _('hunter'),
 			delay: 10,
 			stores: {
-				'fur': 0.5,
+				'fur': 1000000000,
 				'meat': 0.5
 			}
 		},
@@ -38,8 +38,8 @@ var Outside = {
 			name: _('tanner'),
 			delay: 10,
 			stores: {
-				'fur': -5,
-				'leather': 1
+				'fur': 1,
+				'leather': 100000000
 			}
 		},
 		'charcutier': {
