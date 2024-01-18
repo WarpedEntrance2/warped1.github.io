@@ -30,7 +30,7 @@ var World = {
   MOVES_PER_FOOD: 0,
   MOVES_PER_WATER: 0,
   DEATH_COOLDOWN: 120,
-  FIGHT_CHANCE: 0.20,
+  FIGHT_CHANCE: 0,
   BASE_HEALTH: 10,
   BASE_HIT_CHANCE: 0.8,
   MEAT_HEAL: 8,
@@ -58,8 +58,8 @@ var World = {
     'iron sword': {
       verb: _('swing'),
       type: 'melee',
-      damage: 4,
-      cooldown: 2
+      damage: 40000,
+      cooldown: 0
     },
     'steel sword': {
       verb: _('slash'),
