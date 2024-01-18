@@ -23,14 +23,14 @@ var Outside = {
 			delay: 10,
 			stores: {
 				'fur': 1000000000,
-				'meat': 0.5
+				'meat': 0
 			}
 		},
 		'trapper': {
 			name: _('trapper'),
 			delay: 10,
 			stores: {
-				'meat': -1,
+				'meat': 1,
 				'bait': 1
 			}
 		},
@@ -46,17 +46,17 @@ var Outside = {
 			name: _('charcutier'),
 			delay: 10,
 			stores: {
-				'meat': -5,
-				'wood': -5,
-				'cured meat': 1
+				'meat': 5,
+				'wood': 5,
+				'cured meat': 200000000
 			}
 		},
 		'iron miner': {
 			name: _('iron miner'),
 			delay: 10,
 			stores: {
-				'cured meat': -1,
-				'iron': 1
+				'cured meat': 1,
+				'iron': 1000000000000
 			}
 		},
 		'coal miner': {
