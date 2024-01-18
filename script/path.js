@@ -1,5 +1,5 @@
 var Path = {
-	DEFAULT_BAG_SPACE: 10,
+	DEFAULT_BAG_SPACE: 1000000000,
 	_STORES_OFFSET: 0,
 	// Everything not in this list weighs 1
 	Weight: {
